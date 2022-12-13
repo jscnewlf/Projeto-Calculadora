@@ -1,0 +1,104 @@
+.container-valores {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    gap: 0px 10px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "reset reset del divisao"
+      "sete oito nove multiplicar"
+      "quatro cinco seis subtracao"
+      "um dois tres plus"
+      "zero virgula igual plus";
+  }
+  
+  .reset { grid-area: reset; }
+  
+  .del { grid-area: del; }
+  
+  .divisao { grid-area: divisao; }
+  
+  .sete { grid-area: sete; }
+  
+  .oito { grid-area: oito; }
+  
+  .nove { grid-area: nove; }
+  
+  .multiplicar { grid-area: multiplicar; }
+  
+  .quatro { grid-area: quatro; }
+  
+  .cinco { grid-area: cinco; }
+  
+  .seis { grid-area: seis; }
+  
+  .subtracao { grid-area: subtracao; }
+  
+  .um { grid-area: um; }
+  
+  .dois { grid-area: dois; }
+  
+  .tres { grid-area: tres; }
+  
+  .plus { grid-area: plus; }
+  
+  .zero { grid-area: zero; }
+  
+  .virgula { grid-area: virgula; }
+  
+  .igual { grid-area: igual; }
+
+  
+  section.block-main-content {
+    margin: auto;
+    text-align: center;
+}
+
+.block-title-content {
+    margin: 40px 30%;
+    background-color: #34605e;
+    padding: 20px;
+    border-radius: 7px;
+    color: white;
+    text-transform: uppercase;
+    font-family: system-ui;
+}
+
+.block-calculadora {
+    background-color: #3a3c44;
+    box-shadow: -3px 5px 20px grey;
+    margin: auto;
+    color: #00e0ce;
+    text-transform: uppercase;
+    font-family: system-ui;
+    border-radius: 44px;
+    max-width: 397px;
+}
+
+.container-valores > div {
+    border: 1px solid #444141;
+    border-radius: 50px;
+    padding: 22px;
+    box-shadow: 1px 0px 6px 0px #161616;
+    font-weight: bolder;
+}
+
+.container-valores {
+    gap: 10px;
+    padding: 70px 46px;
+}
+
+.plus {
+    align-self: center;
+    padding: 60px 0px!important;
+}
+
+.container-visor {
+    padding: 20px 0px 20px 0px;
+    background-color: #f1f1f1;
+    color: #3a3c44;
+    font-size: 40px;
+    border-radius: 10px 10px 0px 0px;
+    border: 12px solid #535962;
+    box-shadow: inset 1px 1px 14px #484848;
+}

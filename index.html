@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+</head>
+<body>
+<section class="block-main-content">
+    <div class="block-title-content">
+        <h1>Faculdade - Projeto Calculadora</h1>
+    </div>
+    <div class="block-calculadora">
+        <div class="container-visor">
+           <input id="display-numbers" type="text"/>
+        </div>
+        <div class="container-valores">
+            <div class="reset">Resetar</div>
+            <div class="del"><div class="icone"></div></div>
+            <div data-key="operator" class="divisao">/</div>
+            <div class="sete">7</div>
+            <div class="oito">8</div>
+            <div class="nove">9</div>
+            <div data-key="operator" class="multiplicar">X</div>
+            <div class="quatro">4</div>
+            <div class="cinco">5</div>
+            <div class="seis">6</div>
+            <div data-key="operator" class="subtracao">-</div>
+            <div class="um">1</div>
+            <div class="dois">2</div>
+            <div class="tres">3</div>
+            <div data-key="operator" class="plus">+</div>
+            <div class="zero">0</div>
+            <div data-key="operator" class="virgula">.</div>
+            <div class="igual">=</div>
+          </div>
+    </div>
+</section>
+</body>
+<script src="actions.js"></script>
+</html>
