@@ -101,4 +101,22 @@
     border-radius: 10px 10px 0px 0px;
     border: 12px solid #535962;
     box-shadow: inset 1px 1px 14px #484848;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.container-visor input {
+    background: #faebd700;
+    font-size: 26px;
+    color: #3c3c3c;
+    text-align: end;
+    border: 0px;
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+.container-visor input:first-child {
+    font-size: 14px;
+    color: #3c3c3c94;
 }
